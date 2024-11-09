@@ -6,7 +6,6 @@
 # Globals
 #port=/dev/tty.usbserial-B001V5Z7
 port=COM4
-esptool -b 9600 -p $port read_flash 0x00000 "$rombytesize" backup-xy-clock."$rombytesize"."$(date +%Y%m%d%H%M)".bin
 
 # Get Flash Size
 rombytesize=$(( 1048576 * $(esptool.py --port /dev/cu.usbserial-1481130 flash_id | grep "flash size:" | sed 's/.*\([0-9+]\).*/\1/') ))
