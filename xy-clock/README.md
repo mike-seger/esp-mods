@@ -23,3 +23,6 @@ esptool.py --port /dev/cu.usbserial-1481130 write_flash 0x00000 firmwarebackup.b
 
 ## Links
 - [clock case](https://www.thingiverse.com/thing:6361178#google_vignette)
+- [EspHome-Led-Clock](https://github.com/trip5/EspHome-Led-Clock)
+- [XY-Clock](https://templates.blakadder.com/XY-Clock.html)
+- [303WIFILC01](https://github.com/maarten-pennings/303WIFILC01)
